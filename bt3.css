@@ -1,0 +1,88 @@
+.main{
+    width: 600px;
+    height: auto;
+    margin: 0px 35%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.header {
+    text-align: center;
+}
+.name{
+    padding: 0px 20px;
+}
+.infor{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-name {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.card-name input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+}
+
+.card-full-name{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.card-full-name input{
+    border-radius: 5px;
+    padding:5px 10px;
+    border:1px solid darkgray;
+}
+
+.card-user-number ,.card-email, .card-password,.card-password-return{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-user-number input ,.card-email input, .card-password input,.card-password-return input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+button{
+    background-color: #2563eb;
+    color: aliceblue;
+    width: 60%;
+    margin-top:20px ;
+    text-align: center;
+    margin:20px 20%;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #2563eb;
+}
+@media (min-width:480px) and (max-width:780px) {
+    .main{
+        width: 264px;
+        height: 657px;
+    }    
+    .infor{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+}
+
+@media (nin-width:1024px) and (max-width:1200px) {
+    .main{
+        width: 600px;
+        height: auto;
+    }
+}
